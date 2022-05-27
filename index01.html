@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A minha primeira app em REACT</title>
+    <meta charset="utf-8" />
+
+    <!-- 
+        https://github.com/facebook/react/releases
+        https://babeljs.io/docs/en/
+    -->
+    <script src="https://unpkg.com/react@^18.1.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18.1.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+
+<body>
+    <div id="root">
+        <!-- é nesta DIV que o react irá colocar o seu trabalho   -->
+    </div>
+
+    <script type="text/babel">
+        ReactDOM.render(
+             <div>
+                <h1>Olá mundo</h1>
+                <p>este é um parágrafo</p>
+             </div>
+            ,
+            document.getElementById('root')
+        )
+    </script>
+
+</body>
+
+</html>
